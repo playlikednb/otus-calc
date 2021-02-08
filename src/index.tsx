@@ -1,1 +1,3 @@
-console.log(1234);
+export const sum = (a: number, b: number): number => {
+  return a + b;
+};
